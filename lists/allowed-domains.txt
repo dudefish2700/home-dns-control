@@ -5,6 +5,8 @@
 
 @@||allowed-placeholder.invalid^
 
+@@||gov.uk^
+
 @@||apple.com^
 @@||betterprompts.biz^
 @@||budgetair.nl^
