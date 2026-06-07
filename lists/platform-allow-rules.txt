@@ -1,0 +1,91 @@
+! Platform allow rules for AdGuard Home
+! Source: user-defined platform policy
+! These rules are for platforms you want functional even when broad filters are active.
+! Keep this lean. Broad allow rules can override useful blocking.
+
+! YouTube - Always Moderate Filtered
+! Filtering should come from AdGuard Safe Search / YouTube restricted mode, not total blocking.
+@@||youtube.com^
+@@||youtu.be^
+@@||youtube-nocookie.com^
+@@||ytimg.com^
+@@||googlevideo.com^
+@@||youtube.googleapis.com^
+@@||youtubei.googleapis.com^
+
+! Netflix - Always Allowed
+@@||netflix.com^
+@@||nflxext.com^
+@@||nflximg.net^
+@@||nflximg.com^
+@@||nflxso.net^
+@@||nflxvideo.net^
+
+! Disney+ - Always Allowed
+@@||disneyplus.com^
+@@||disney-plus.net^
+@@||dssott.com^
+@@||bamgrid.com^
+
+! Vimeo - Always Allowed
+@@||vimeo.com^
+@@||vimeocdn.com^
+
+! Hulu - Always Allowed
+@@||hulu.com^
+@@||huluim.com^
+
+! Prime Video - Always Allowed
+@@||primevideo.com^
+@@||amazonvideo.com^
+@@||aiv-cdn.net^
+@@||pv-cdn.net^
+
+! Spotify - Always Allowed
+@@||spotify.com^
+@@||spotifycdn.com^
+@@||spotify.net^
+@@||scdn.co^
+@@||spoti.fi^
+
+! Skype - Always Allowed
+@@||skype.com^
+@@||skypeassets.com^
+
+! WhatsApp - Always Allowed
+@@||whatsapp.com^
+@@||whatsapp.net^
+@@||wa.me^
+
+! Zoom - Always Allowed
+@@||zoom.us^
+@@||zoom.com^
+@@||zoomcdn.com^
+
+! Facebook - Always Allowed
+@@||facebook.com^
+@@||facebook.net^
+@@||fb.com^
+@@||fbcdn.net^
+@@||fbsbx.com^
+@@||messenger.com^
+@@||m.me^
+
+! Fortnite - Always Allowed
+@@||fortnite.com^
+@@||epicgames.com^
+@@||epicgames.dev^
+
+! Roblox - Always Allowed
+@@||roblox.com^
+@@||rbxcdn.com^
+
+! Minecraft - Always Allowed
+@@||minecraft.net^
+@@||mojang.com^
+
+! Twitch - Always Allowed
+@@||twitch.tv^
+@@||twitchcdn.net^
+@@||ttvnw.net^
+@@||jtvnw.net^
