@@ -1,0 +1,88 @@
+! Platform block rules for AdGuard Home
+! Source: user-defined platform policy
+! These rules block main platform domains and common supporting domains.
+! DNS-level blocking is not perfect for apps with shared CDNs, but this is a strong v1.
+
+! Reddit - Always Blocked
+||reddit.com^
+||redd.it^
+||redditstatic.com^
+||redditmedia.com^
+||reddithelp.com^
+||redditinc.com^
+||redditmail.com^
+
+! Telegram - Always Blocked
+||telegram.org^
+||telegram.me^
+||telegram.dog^
+||t.me^
+||telegra.ph^
+||telesco.pe^
+
+! Discord - Always Blocked
+||discord.com^
+||discord.gg^
+||discordapp.com^
+||discordapp.net^
+||discordcdn.com^
+||discord.media^
+
+! Twitter / X - Always Blocked
+||twitter.com^
+||x.com^
+||t.co^
+||twimg.com^
+||tweetdeck.com^
+||pscp.tv^
+||periscope.tv^
+
+! Pinterest - Always Blocked
+||pinterest.com^
+||pinimg.com^
+||pin.it^
+/(^|\.)pinterest\./
+
+! TikTok - Always Blocked
+||tiktok.com^
+||tiktokcdn.com^
+||tiktokcdn-us.com^
+||tiktokcdn-eu.com^
+||tiktokv.com^
+||tiktokv.us^
+||musical.ly^
+||byteoversea.com^
+||ibytedtos.com^
+||ibyteimg.com^
+||byteimg.com^
+||bytedance.com^
+||bytedance.net^
+||muscdn.com^
+
+! Snapchat - Always Blocked
+||snapchat.com^
+||snap.com^
+||sc-cdn.net^
+||snapkit.com^
+||snapads.com^
+||sc-static.net^
+
+! Tumblr - Always Blocked
+||tumblr.com^
+||tumblr.co^
+||tmblr.co^
+||media.tumblr.com^
+||tumblr.map.fastly.net^
+
+! Instagram - Always Blocked
+! Keep shared Meta CDN domains out of this block file unless you are okay breaking Facebook/WhatsApp.
+||instagram.com^
+||cdninstagram.com^
+||ig.me^
+||threads.net^
+
+! Blogspot / Blogger - Always Blocked
+||blogger.com^
+||blogblog.com^
+||blogger.googleusercontent.com^
+/(^|\.)blogspot\./
