@@ -1,0 +1,13 @@
+! Custom wildcard/pattern DNS block rules for AdGuard Home
+! Use carefully. These rules can block many subdomains or patterns.
+! Prefer exact rules in blocked-domains.txt unless a broader pattern is clearly needed.
+!
+! Safe format for blocking a domain and all subdomains:
+! ||example.com^
+!
+! Regex rules are allowed but should be rare:
+! /example-pattern/
+!
+! Placeholder rule:
+
+||wildcard-placeholder.invalid^
