@@ -1,1 +1,7 @@
+! Custom DNS blocklist for AdGuard Home
+! One rule per line
+! Format for exact domain blocking:
+! ||example.com^
+! Add real misses found in AdGuard Home query logs only.
+
 ||blocked-placeholder.invalid^
