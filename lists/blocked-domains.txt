@@ -1,0 +1,5 @@
+# Custom DNS blocklist
+# One domain per line
+# Keep this list for exact misses found in AdGuard Home query logs
+# Example:
+# example.com
