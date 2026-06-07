@@ -1,0 +1,5 @@
+# Custom DNS allowlist
+# One domain per line
+# Use this for false positives or domains that must stay accessible
+# Example:
+# example.com
