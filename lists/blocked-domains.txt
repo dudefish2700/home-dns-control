@@ -1,6 +1,1 @@
-# Custom DNS blocklist
-# One domain per line
-# Keep this list for exact misses found in AdGuard Home query logs
-# Do not add random guessed subdomains. Add real misses only.
-
-blocked-placeholder.invalid
+||blocked-placeholder.invalid^
