@@ -1,7 +1,35 @@
 ! Custom DNS allowlist for AdGuard Home
+! Imported from hosts-control allowed-domains.txt
 ! One rule per line
-! Format for exact domain allowing:
-! @@||example.com^
-! Use this for false positives or domains that must stay accessible.
+! Format: @@||example.com^
 
 @@||allowed-placeholder.invalid^
+
+@@||apple.com^
+@@||betterprompts.biz^
+@@||budgetair.nl^
+@@||cryptoprices.cc^
+@@||gettyimages.com^
+@@||hianime.to^
+@@||ibkr.info^
+@@||icloud.com^
+@@||innovators.fm^
+@@||islamqa.info^
+@@||jup.ag^
+@@||melinoe.online^
+@@||mozilla.com^
+@@||muslimkids.tv^
+@@||nams.ws^
+@@||nftstorage.link^
+@@||pexels.com^
+@@||phantom.app^
+@@||pump.fun^
+@@||shein.com^
+@@||socialmediasalesmachine.live^
+@@||sonar.watch^
+@@||sterope.site^
+@@||unsplash.com^
+@@||wild.link^
+@@||wsrv.nl^
+@@||wzstats.gg^
+@@||y2mate.is^
