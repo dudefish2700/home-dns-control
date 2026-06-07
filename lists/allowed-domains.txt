@@ -1,1 +1,7 @@
+! Custom DNS allowlist for AdGuard Home
+! One rule per line
+! Format for exact domain allowing:
+! @@||example.com^
+! Use this for false positives or domains that must stay accessible.
+
 @@||allowed-placeholder.invalid^
