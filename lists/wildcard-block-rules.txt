@@ -1,13 +1,129 @@
-! Custom wildcard/pattern DNS block rules for AdGuard Home
-! Use carefully. These rules can block many subdomains or patterns.
-! Prefer exact rules in blocked-domains.txt unless a broader pattern is clearly needed.
-!
-! Safe format for blocking a domain and all subdomains:
-! ||example.com^
-!
-! Regex rules are allowed but should be rare:
-! /example-pattern/
-!
-! Placeholder rule:
+! Custom TLD / wildcard DNS block rules for AdGuard Home
+! Source: CleanBrowsing blocked TLD settings copied by user
+! Rule format: /\.tld$/
+! These rules block any domain ending in the listed TLD.
 
 ||wildcard-placeholder.invalid^
+
+/\.xyz$/
+/\.bar$/
+/\.biz$/
+/\.bid$/
+/\.bike$/
+/\.bond$/
+/\.buzz$/
+/\.club$/
+/\.cash$/
+/\.cam$/
+/\.chat$/
+/\.click$/
+/\.college$/
+/\.date$/
+/\.download$/
+/\.lol$/
+/\.mobi$/
+/\.mom$/
+/\.watch$/
+/\.tube$/
+/\.wtf$/
+/\.vip$/
+/\.video$/
+/\.social$/
+/\.uk$/
+/\.gq$/
+/\.gg$/
+/\.cf$/
+/\.beer$/
+/\.casino$/
+/\.fit$/
+/\.fun$/
+/\.gdn$/
+/\.monster$/
+/\.recipes$/
+/\.rest$/
+/\.surf$/
+/\.games$/
+/\.life$/
+/\.live$/
+/\.link$/
+/\.loan$/
+/\.men$/
+/\.mov$/
+/\.ml$/
+/\.party$/
+/\.rip$/
+/\.website$/
+/\.work$/
+/\.world$/
+/\.win$/
+/\.ooo$/
+/\.top$/
+/\.tk$/
+/\.zip$/
+/\.ru$/
+/\.xn--p1ai$/
+/\.cn$/
+/\.ir$/
+/\.kp$/
+/\.ua$/
+/\.sy$/
+/\.icu$/
+/\.info$/
+/\.mil$/
+/\.pro$/
+/\.rodeo$/
+/\.site$/
+/\.show$/
+/\.space$/
+/\.stream$/
+/\.onion$/
+/\.online$/
+/\.vote$/
+/\.ag$/
+/\.al$/
+/\.au$/
+/\.asia$/
+/\.ba$/
+/\.br$/
+/\.by$/
+/\.cc$/
+/\.cz$/
+/\.de$/
+/\.dk$/
+/\.ee$/
+/\.es$/
+/\.fr$/
+/\.fm$/
+/\.ga$/
+/\.gs$/
+/\.gr$/
+/\.hk$/
+/\.id$/
+/\.in$/
+/\.it$/
+/\.iq$/
+/\.india$/
+/\.jp$/
+/\.kr$/
+/\.lt$/
+/\.mx$/
+/\.nl$/
+/\.np$/
+/\.ph$/
+/\.ps$/
+/\.pw$/
+/\.py$/
+/\.sh$/
+/\.so$/
+/\.su$/
+/\.sx$/
+/\.th$/
+/\.to$/
+/\.tw$/
+/\.tr$/
+/\.uy$/
+/\.vn$/
+/\.za$/
+/\.ws$/
+/\.cfd$/
+/\.cyou$/
